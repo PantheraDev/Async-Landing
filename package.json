@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
     "url": "https://github.com/PantheraDev/Async-Landing/issues"
   },
   "homepage": "https://github.com/PantheraDev/Async-Landing#readme",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
