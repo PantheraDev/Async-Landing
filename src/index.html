@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="./assets/main.js"></script>
+    <script defer type="module" src="./assets/ig.js"></script>
   </head>
 
   <body>
@@ -87,11 +88,13 @@
           </main>
         </div>
       </div>
-      <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2" id="profile">
+        <!--asdadasd-->
         <img
+          id="image1"
           class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://ui-avatars.com/api/?background=0D8ABC&color=fff"
-          alt=""
+          src=""
+          alt="Img-profile"
         />
       </div>
     </div>
@@ -103,7 +106,7 @@
           My Team Pokemon
         </h2>
         <div
-          class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8"
+          class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-6 xl:gap-x-8"
           id="content"
         >
           <!-- content -->
